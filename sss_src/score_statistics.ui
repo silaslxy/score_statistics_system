@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1410</width>
+    <height>836</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>1391</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>一</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>二</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>三</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>四</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>五</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>六</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>七</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>八</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>九</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>十</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>题号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>答案</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>题号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>答案</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>题号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>答案</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>题号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>答案</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>题号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>答案</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>11</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>21</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>31(R5)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="0" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="8">
+     <property name="text">
+      <string>41(R32)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="0" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>12</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>22</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string>32(R7)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="1" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="8">
+     <property name="text">
+      <string>42(R33)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="1" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>3</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>13</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>23</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string>33(R9)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="2" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="8">
+     <property name="text">
+      <string>43(R34)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="2" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>4</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>14</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>24</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string>34(R12)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="3" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="8">
+     <property name="text">
+      <string>44(R35)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="3" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>5</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>15</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>25</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string>35(13)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="4" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="8">
+     <property name="text">
+      <string>45(R37)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="4" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>6</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>16</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>26</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string>36(R13R14)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="5" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="8">
+     <property name="text">
+      <string>46(R38)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="5" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>7</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>17</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>27</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string>37(R16-21)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="6" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="8">
+     <property name="text">
+      <string>47(R39)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="6" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>8</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>18</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string>28</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="7" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="6">
+     <property name="text">
+      <string>38(R23R25)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="7" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="8">
+     <property name="text">
+      <string>48(R40)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="7" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>9</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>19</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string>29</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="8" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="6">
+     <property name="text">
+      <string>39(R29R30)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="8" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="8">
+     <property name="text">
+      <string>49(R41)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="8" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>10</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>20</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string>30</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="9" column="5">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="6">
+     <property name="text">
+      <string>40(R31)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="9" column="7">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="8">
+     <property name="text">
+      <string>50(日期)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+    <item row="9" column="9">
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="textEditName">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>姓名：</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEditAddr">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>70</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>70</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>地区：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_add">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>80</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>录入</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_query">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>80</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_delete">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>80</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_export">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>700</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>导出</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_inport">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>80</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>导入</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1410</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_add</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>601</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_query</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>782</x>
+     <y>104</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>731</x>
+     <y>55</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_delete</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>903</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>856</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_inport</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1010</x>
+     <y>116</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>950</x>
+     <y>57</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_export</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1008</x>
+     <y>535</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>917</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
